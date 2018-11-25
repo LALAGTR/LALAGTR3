@@ -3,13 +3,11 @@
 using namespace std;
 int main()
 {
-	double a, b, c;
+	int a,b=10;
+	double c;
 	cout << "Input a=";
 	cin >> a;
-	cout << "Input b=";
-	cin >> b;
-	if (b != 0) c = a / b;
-	else cout << "Error";
+	c=a/b;
 	cout << "c=" << c << endl;
 	system("pause");
 	return 0;
